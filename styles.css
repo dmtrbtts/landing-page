@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/* Header Styling */
+.page-header {
+  background-color: #1f2937;
+  padding: 20px 0;
+}
+
+.page-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
+  color: #F9FAF8;
+}
+
+/* Navigation Menu */
+.nav-menu {
+  display: flex;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.nav-links li a:hover {
+  color: #FFF;
+}
