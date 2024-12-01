@@ -6,28 +6,32 @@
 
 body {
   font-family: Roboto, sans-serif;
+  font-size: 18px;
+  color: #1F2937;
 }
 
 /* Header Styling */
 .page-header {
-  background-color: #1f2937;
-  padding: 20px 0;
+  background-color: #F6AC38;
+  padding: 1em 0;
 }
 
-.page-header .container {
+.container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+.page-header .container {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+}
+
 .logo {
   font-family: Montserrat, sans-serif;
-  font-size: 28px;
-  color: #F9FAF8;
-  font-weight: 400;
+  font-size: 1.9em;
+  font-weight: 600;
 }
 
 /* Navigation Menu */
@@ -43,11 +47,53 @@ body {
 
 .nav-links li a {
   text-decoration: none;
-  color: #E5E7EB;
-  font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
+  color: inherit;
+  opacity: 0.8;
 }
 
 .nav-links li a:hover {
-  color: #FFF;
+  color: #3882F6;
+}
+
+.description {
+  background-color: #F6AC38;
+  padding: 5em 0;
+}
+
+.description .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.description .text-content,
+.description .image-container {
+  max-width: 45%;
+}
+
+.text-content h1 {
+  font-size: 2.5em;
+  font-weight: 900;
+  margin-bottom: 0.5em;
+}
+
+.text-content p {
+  opacity: 0.8;
+  margin-bottom: 1em;
+}
+
+.text-content button {
+  color: #fff;
+  background-color: #3882F6;
+  border: none;
+  padding: 0.75em 1.5em;
+  border-radius: 7px;
+}
+
+.description .image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
