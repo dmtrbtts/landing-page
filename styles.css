@@ -145,6 +145,7 @@ body {
   max-width: 20%;
   align-items: center;
   gap: 1em;
+  margin-bottom: 2em;
 }
 
 .card .square-container {
@@ -153,6 +154,7 @@ body {
   overflow: hidden;
   border: 0.2em solid #3882F6;
   border-radius: 1em;
+  padding: 0.2em;
 }
 
 .card img {
@@ -163,4 +165,27 @@ body {
   text-align: center;
   font-size: 0.9em;
   opacity: 0.9;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 5em 0;
+}
+
+.quote .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.quote p {
+  font-size: 2em;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote cite {
+  display: block;
+  text-align: right;
+  font-style: normal;
+  font-weight: 900;
 }
