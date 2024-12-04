@@ -20,11 +20,18 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 button:hover {
   cursor: pointer;
   opacity: 0.9;
 }
 
+
+/* Page header styling */
 .page-header {
   background-color: #F6AC38;
   padding: 1em 0;
@@ -40,6 +47,7 @@ button:hover {
     display: inline-block;
     font-family: Montserrat, sans-serif;
     font-size: 2em;
+    letter-spacing: 0.1em;
     font-weight: 600;
     z-index: 2;
 
@@ -60,12 +68,9 @@ button:hover {
 
     ul {
       display: flex;
-      gap: 40px;
+      gap: 2.5em;
 
       li a {
-        text-decoration: none;
-        font-weight: 400;
-        color: inherit;
         opacity: 0.9;
 
         &:hover {
@@ -233,5 +238,31 @@ button:hover {
     padding: 0.75em 1.5em;
     border-radius: 0.5em;
     font-size: 1em;
+  }
+}
+
+/* Page footer styles */
+.page-footer {
+  background-color: #F6AC38;
+  padding: 1em 0;
+
+  .container {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 1.25em 0;
+  }
+
+  ul {
+    display: flex;
+    gap: 2.5em;
+
+    li a {
+      opacity: 0.9;
+
+      &:hover {
+        color: #fff;
+      }
+    }
   }
 }
